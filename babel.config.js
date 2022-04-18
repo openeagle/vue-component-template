@@ -7,7 +7,7 @@ const compile = (esmodule) => ({
       {
         modules: esmodule ? false : 'commonjs',
         useBuiltIns: false,
-        targets: 'ios_saf >= 10, chrome >= 50',
+        targets: 'ios_saf >= 10, chrome >= 49',
       },
     ],
     [
